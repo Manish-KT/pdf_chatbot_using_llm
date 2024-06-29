@@ -1,0 +1,7 @@
+artifacts/
+fssasis_index/
+__pycache__/
+Bacend(LLM)-Assignment
+*.pdf
+test.py
+testing/
