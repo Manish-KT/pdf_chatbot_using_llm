@@ -8,10 +8,6 @@ Welcome to the **Content Engine** project! This system is designed to analyze an
 
 - [Overview](#overview)
 - [Architecture](#architecture)
-- [Setup](#setup)
-- [Usage](#usage)
-- [Contribution](#contribution)
-- [License](#license)
 
 ## Overview
 
@@ -36,19 +32,3 @@ The Content Engine's architecture is designed to be modular, scalable, and priva
   - Text is extracted from PDFs and converted into embeddings.
   - Embeddings are stored in FAISS for fast retrieval.
   - Users interact with the chatbot interface to ask questions and receive insights.
-
-## Setup
-
-To run the Content Engine locally, follow these steps:
-
-### Prerequisites
-
-- Python 3.8 or higher
-- Pip (Python package installer)
-
-### Installation
-
-1. **Clone the Repository**:
-   ```bash
-   git clone <repository_url>
-   cd Content_Engine
