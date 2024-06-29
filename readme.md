@@ -55,7 +55,7 @@ Follow these steps to set up and run the project on your local machine:
     ```
 
 3. **Prepare the Artifacts**:
-    - Ensure the Mistral 7B model file (`mistral-7b-instruct-v0.2.Q2_K.gguf`) is in the `artifacts/` directory.
+    - Ensure the Mistral 7B model file [`mistral-7b-instruct-v0.2.Q2_K.gguf`](https://huggingface.co/mahiatlinux/Mistral-7B-Instruct-v0.2-Q2_K-GGUF) is in the `artifacts/` directory.
 
 ### Running the Application
 
@@ -107,7 +107,7 @@ This project is licensed under the MIT License.
 ## Acknowledgements
 
 - **LangChain Community**: For the amazing tools and libraries.
-- **[HuggingFace](https://huggingface.co/mahiatlinux/Mistral-7B-Instruct-v0.2-Q2_K-GGUF)**: For the embeddings model.
+- **[HuggingFace](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2)**: For the embeddings model.
 - **Streamlit**: For the easy-to-use web app framework.
 
 ---
