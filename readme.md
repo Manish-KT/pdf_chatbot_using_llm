@@ -16,6 +16,7 @@ PDF Analyzer Bot/
 ├── artifacts/
 │   └── mistral-7b-instruct-v0.2.Q2_K.gguf
 ├── requirements.txt
+```
 
 - **app.py**: The main application file that sets up the Streamlit interface and handles user interactions.
 - **utils.py**: Contains utility functions for creating the language model and FAISS vector store.
