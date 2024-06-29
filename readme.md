@@ -1,4 +1,6 @@
-# PDF Analyzer Bot 🤖
+<div align="center">
+    <h1>PDF Analyzer Bot 🤖</h1>
+</div>
 
 Welcome to the **PDF Analyzer Bot** project! This bot is designed to provide answers to questions extracted from uploaded PDF files using a conversational interface. It leverages a large language model and a FAISS vector store to deliver accurate and efficient responses. Let's dive into the details!
 
@@ -6,29 +8,14 @@ Welcome to the **PDF Analyzer Bot** project! This bot is designed to provide ans
 
 Here's an overview of the project's folder structure:
 
-
-Here's the README content in markdown code format, ready to be used as a README.md file:
-
-markdown
-Copy code
-# PDF Analyzer Bot 🤖
-
-Welcome to the **PDF Analyzer Bot** project! This bot is designed to provide answers to questions extracted from uploaded PDF files using a conversational interface. It leverages a large language model and a FAISS vector store to deliver accurate and efficient responses. Let's dive into the details!
-
-## Folder Structure
-
-Here's an overview of the project's folder structure:
-
+```plaintext
 PDF Analyzer Bot/
 ├── app.py
 ├── utils.py
 ├── fssasis_index/
 ├── artifacts/
-│ └── mistral-7b-instruct-v0.2.Q2_K.gguf
+│   └── mistral-7b-instruct-v0.2.Q2_K.gguf
 ├── requirements.txt
-
-
-
 
 - **app.py**: The main application file that sets up the Streamlit interface and handles user interactions.
 - **utils.py**: Contains utility functions for creating the language model and FAISS vector store.
@@ -57,7 +44,7 @@ Follow these steps to set up and run the project on your local machine:
 1. **Clone the Repository**:
     ```bash
     git clone <repository_url>
-    cd PDF_Analyzer_Bot
+    cd <name of repo>
     ```
 
 2. **Install Dependencies**:
@@ -87,7 +74,7 @@ Follow these steps to set up and run the project on your local machine:
 
 Here's a sample screenshot of the chat interface:
 
-![Chat Interface Sample](SAMPLE SCREEN SHOT.png)
+![Chat Interface Sample](sample_ss.png)
 
 ## Code Overview
 
@@ -118,7 +105,7 @@ This project is licensed under the MIT License.
 ## Acknowledgements
 
 - **LangChain Community**: For the amazing tools and libraries.
-- **HuggingFace**: For the embeddings model.
+- **[HuggingFace](https://huggingface.co/mahiatlinux/Mistral-7B-Instruct-v0.2-Q2_K-GGUF)**: For the embeddings model.
 - **Streamlit**: For the easy-to-use web app framework.
 
 ---
